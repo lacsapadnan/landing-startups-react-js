@@ -12,4 +12,5 @@ export default function Section(props) {
 Section.propTypes = {
   isCenteredContent: propTypes.bool,
   className: propTypes.string,
+  children: propTypes.node.isRequired,
 };

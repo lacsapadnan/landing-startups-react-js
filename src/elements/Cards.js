@@ -19,4 +19,5 @@ export default function Cards(props) {
 Cards.propTypes = {
   hasShadow: propTypes.bool,
   className: propTypes.string,
+  children: propTypes.node.isRequired,
 };

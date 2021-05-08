@@ -15,4 +15,5 @@ Button.propTypes = {
   isWideMobile: propTypes.bool,
   isSmall: propTypes.bool,
   isBlock: propTypes.bool,
+  children: propTypes.node.isRequired,
 };
